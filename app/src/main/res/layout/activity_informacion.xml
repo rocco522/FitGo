@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context="com.fitgo.Informacion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo2">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:background="@drawable/fondo">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sep1"
+                android:layout_row="0"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/sep3"
+                android:layout_row="0"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sep2"
+                android:layout_row="0"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="En Busca del Tesoro en ICESI"
+                android:id="@+id/textView8"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:textColor="#60d2ff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView2"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="152dp"
+                android:id="@+id/imageView"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:background="@drawable/imagen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView3"
+                android:layout_row="4"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:text="Se ha perdido el tesoro más preciado de la universidad y tu has sido convocado para encontrarlo. Sólo tienes 1 hora y 5 pistas para descubrirlo. ¿Estarás a la altura?"
+                android:id="@+id/textView9"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView4"
+                android:layout_row="6"
+                android:layout_column="1" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="152dp"
+                android:id="@+id/imageView3"
+                android:layout_row="7"
+                android:layout_column="1"
+                android:background="@drawable/imagen3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sep5"
+                android:layout_row="8"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_row="9"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:text="El juego contiene un total de 5 pistas y debes descifrarlas todas antes de una hora. Pero hacerlo, no te convierte en el ganador, debes ser el primero."
+                android:id="@+id/textView13"
+                android:layout_row="10"
+                android:layout_column="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sep"
+                android:layout_row="11"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reglas"
+                android:id="@+id/textView15"
+                android:layout_row="12"
+                android:layout_column="1"
+                android:textColor="#60d2ff" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:text="El Administrador podrá expulsar a un jugador cuando: 1. Se presente alguna acción antideportiva, 2. Impida la buena ejecución del juego, 3. Pierda la conexión con el servidor y le sea imposible restablecerla"
+                android:id="@+id/textView16"
+                android:layout_row="13"
+                android:layout_column="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView17"
+                android:layout_row="14"
+                android:layout_column="1" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="152dp"
+                android:id="@+id/imageView2"
+                android:layout_row="15"
+                android:layout_column="1"
+                android:background="@drawable/imagen2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/sep4"
+                android:layout_row="16"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha y hora: 2015/11/10 - 10:45 AM"
+                android:id="@+id/textView10"
+                android:layout_row="17"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar: Universidad ICESI"
+                android:id="@+id/textView11"
+                android:layout_row="18"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView5"
+                android:layout_row="19"
+                android:layout_column="1" />
+
+            <Button
+                android:layout_width="325dp"
+                android:layout_height="42dp"
+                android:id="@+id/btnIniciarSesion"
+                android:layout_row="20"
+                android:layout_column="1"
+                android:singleLine="false"
+                android:background="@drawable/fondobtn"
+                android:allowUndo="false"
+                android:onClick="inscribirseJuego"
+                android:text="¡Inscríbete!"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView6"
+                android:layout_row="21"
+                android:layout_column="1" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

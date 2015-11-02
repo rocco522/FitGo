@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FitGo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_informacion">informacion</string>
+    <string name="title_activity_lista_juegos">ListaJuegos</string>
+
+    <string name="title_section1">Busca el Tesoro en ICESI</string>
+    <string name="title_section2">Un Clásico en el Pascual</string>
+    <string name="title_section3">Cali es Cali, lo demás es el Metro</string>
+    <string name="descripcion_section1">Se ha perdido el tesoro más preciado de la universidad y tu has sido convocado para encontrarlo. Sólo tienes 1 hora y 5 pistas para descubrirlo. ¿Estarás a la altura?</string>
+    <string name="descripcion_section2">Como dice la canción Un clásico en el pascual... dos equipos se van a enfrentar. Ven y define quién será el ganador</string>
+    <string name="descripcion_section3">Se está planeando la construcción del metro en Cali, pero los ingenieros no conocen la ciudad. Ven y ayúdales a descubrir dónde se ubicarán las estaciones</string>
+    <string name="fecha_section1">2015/11/20 - 10:45 AM</string>
+    <string name="fecha_section2">2015/11/10 - 10:45 AM</string>
+    <string name="fecha_section3">2015/11/2 - 10:45 AM</string>
+    <string name="lugar_section1">Universidad ICESI</string>
+    <string name="lugar_section2">Estadio Pascual Guerrero</string>
+    <string name="lugar_section3">Santiago de Cali</string>
+    <string name="title_activity_inscribirse_juego">InscribirseJuego</string>
+    <string name="title_activity_rechazado">Rechazado</string>
+    <string name="title_activity_juego">Map</string>
+    <string name="title_activity_juego_reto2">JuegoReto2</string>
+    <string name="title_activity_juego_uno_retos">JuegoUnoRetos</string>
+    <string name="juego1_pista1">Pista: &quot;Un riachuelo en la lista, alguien que vio liderazgo, te dará una pista&quot;</string>
+    <string name="juego1_pista2">Pista: &quot;Si a menudo lo frecuentas, en diseño te encuentras&quot;</string>
+    <string name="juego1_pista3">Pista: &quot;Su antiguo dueño vive en una casa grande que no tiene puertas ni ventanas&quot;</string>
+    <string name="juego1_pista4">Pista: &quot;Un riachuelo en la lista, alguien que vio liderazgo, te dará una pista&quot;</string>
+    <string name="juego1_pista5">Pista: &quot;Un riachuelo en la lista, alguien que vio liderazgo, te dará una pista&quot;</string>
+    <string name="juego1_num_reto1">Reto 1: Encuentra un lugar</string>
+    <string name="juego1_num_reto2">Reto 2: Encuentra un lugar</string>
+    <string name="juego1_num_reto3">Reto 3: Encuentra un lugar</string>
+    <string name="juego1_num_reto4">Reto 4: Encuentra un lugar</string>
+    <string name="juego1_num_reto5">Reto 5: Encuentra un lugar</string>
+    <string name="title_activity_tabla_posiciones">TablaPosiciones</string>
+    <string name="title_activity_mapa">Mapa</string>
+</resources>

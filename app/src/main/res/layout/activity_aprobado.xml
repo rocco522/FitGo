@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fitgo.Aprobado">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/fondo">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView14"
+                android:layout_row="0"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView19"
+                android:layout_row="0"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView18"
+                android:layout_row="0"
+                android:layout_column="2" />
+
+            <ImageView
+                android:layout_width="325dp"
+                android:layout_height="292dp"
+                android:id="@+id/imageView4"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:background="@drawable/aprobado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:layout_row="2"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has sido aprobado"
+                android:id="@+id/textView21"
+                android:layout_row="3"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_row="4"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha y hora:"
+                android:id="@+id/textView25"
+                android:layout_row="5"
+                android:layout_column="2"
+                android:textColor="#60d2ff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha_section1"
+                android:id="@+id/textView23"
+                android:layout_row="6"
+                android:layout_column="2"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24"
+                android:layout_row="7"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar:"
+                android:id="@+id/textView26"
+                android:layout_row="8"
+                android:layout_column="2"
+                android:textColor="#60d2ff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lugar_section1"
+                android:id="@+id/textView27"
+                android:layout_row="9"
+                android:layout_column="2"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:layout_row="10"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="325dp"
+                android:layout_height="42dp"
+                android:text="Iniciar juego"
+                android:id="@+id/button"
+                android:layout_row="11"
+                android:layout_column="2"
+                android:background="@drawable/fondobtn"
+                android:onClick="jugar"
+                android:textColor="#ffffff" />
+
+        </GridLayout>
+
+    </ScrollView>
+</RelativeLayout>

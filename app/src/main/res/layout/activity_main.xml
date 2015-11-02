@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:visibility="visible"
+           android:background="@drawable/fondo">
+
+           <TextView
+               android:layout_width="20dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/sep1"
+               android:layout_row="0"
+               android:layout_column="0" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="30dp"
+               android:id="@+id/sep3"
+               android:layout_row="0"
+               android:layout_column="1" />
+
+           <TextView
+               android:layout_width="20dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/sep2"
+               android:layout_row="0"
+               android:layout_column="2" />
+
+           <ImageView
+               android:layout_width="325dp"
+               android:layout_height="124dp"
+               android:id="@+id/imageView"
+               android:layout_row="1"
+               android:layout_column="1"
+               android:background="@drawable/logo" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:id="@+id/textView2"
+               android:layout_row="2"
+               android:layout_column="1" />
+
+           <TextView
+               android:layout_width="325dp"
+               android:layout_height="wrap_content"
+               android:text="Inicia sesión o regístrate para empezar"
+               android:id="@+id/textView"
+               android:layout_row="3"
+               android:layout_column="1"
+               android:textColor="#ffffff"
+               android:textAlignment="center" />
+
+           <EditText
+               android:layout_width="325dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtUsuario"
+               android:layout_row="5"
+               android:layout_column="1"
+               android:text="Usuario"
+               android:enabled="true" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:id="@+id/textView3"
+               android:layout_row="4"
+               android:layout_column="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:id="@+id/textView4"
+               android:layout_row="6"
+               android:layout_column="1" />
+
+           <EditText
+               android:layout_width="325dp"
+               android:layout_height="wrap_content"
+               android:inputType="textPassword"
+               android:ems="10"
+               android:id="@+id/txtPassword"
+               android:layout_row="7"
+               android:layout_column="1"
+               android:text="password" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:id="@+id/textView5"
+               android:layout_row="8"
+               android:layout_column="1" />
+
+           <Button
+               android:layout_width="325dp"
+               android:layout_height="42dp"
+               android:id="@+id/btnIniciarSesion"
+               android:layout_row="9"
+               android:layout_column="1"
+               android:singleLine="false"
+               android:background="@drawable/fondobtn"
+               android:allowUndo="false"
+               android:onClick="iniciarSesion"
+               android:text="Iniciar sesión"
+               android:textColor="#ffffff" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:id="@+id/textView6"
+               android:layout_row="10"
+               android:layout_column="1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Regístrate"
+               android:id="@+id/textView7"
+               android:layout_row="11"
+               android:layout_column="1"
+               android:textAlignment="center" />
+
+       </GridLayout>
+
+   </ScrollView>
+</RelativeLayout>
